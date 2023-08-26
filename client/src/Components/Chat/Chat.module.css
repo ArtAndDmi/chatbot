@@ -1,0 +1,98 @@
+.container {
+    width: 17rem;
+    height: 17rem;
+    border-radius: .5rem;
+    background: #383838;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bottom {
+    width: 90%;
+    height: 2rem;
+    border-radius: 0 0 .5rem .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputMessage {
+    outline: none;
+    width: 12.7rem;
+    height: 1rem;
+    background: #232323;
+    color: aliceblue;
+    font-size: .4rem;
+    padding: .1rem .5rem;
+    border-radius: .2rem;
+    border: .05rem solid #383838;
+    transition: .2s;
+}
+
+
+
+.inputMessage:focus {
+    border: .05rem solid #64b03d;
+}
+
+.sendButton {
+    width: 1.2rem;
+    height: 1.2rem;
+    border: none;
+    padding: 0 .1rem 0 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #232323;
+    color: aliceblue;
+    font-size: .5rem;
+    transition: .2s;
+}
+
+.sendButton:hover {
+    background: #64b03d;
+}
+
+.sendButton:active {
+    opacity: .7;
+}
+
+@media (max-width: 400px) {
+    .container {
+        margin-top: 0;
+        padding-top: 0;
+        width: 20rem;
+        height: 90vh;
+        border-radius: 0;
+    }
+
+    .bottom {
+        height: 3rem;
+    }
+    .inputMessage {
+        font-size: .8rem;
+        width: 14rem;
+        height: 2rem;
+        border-radius: .5rem;
+        border: .1rem solid #383838;
+
+    }
+
+    .inputMessage:focus{
+        border: .1rem solid #64b03d;
+    }
+
+    .sendButton {
+        height: 2.2rem;
+        width: 2.2rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

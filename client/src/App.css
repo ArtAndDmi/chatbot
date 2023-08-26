@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media (max-height: 400px) {
+  .App {
+    max-height: 90vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+  }
+}

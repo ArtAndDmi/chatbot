@@ -1,0 +1,49 @@
+.title {
+    font-size: .5rem;
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.input {
+    outline: none;
+    border: .04rem solid #505050;
+    margin-bottom: 0.2rem;
+    width: 7.4rem;
+    height: .8rem;
+    border-radius: .15rem;
+    padding: .1rem .2rem;
+    font-size: .4rem;
+    transition: .2s;
+    background: #232323;
+    color: white;
+}
+
+.input:focus {
+    border: .04rem solid #64b03d;
+}
+
+.sendButton {
+    height: .8rem;
+    border: none;
+    border-radius: .15rem;
+    margin-bottom: 0.2rem;
+    font-size: .5rem;
+    background: #64b03d;
+    color: white;
+    transition: .2s;
+ }
+
+.sendButton:hover {
+    opacity: .8;
+}
+
+.sendButton:active {
+    opacity: .6;
+}
+

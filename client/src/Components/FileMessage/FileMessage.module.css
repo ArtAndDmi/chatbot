@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 5rem;
+    padding: .1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.container:hover {
+    cursor: pointer;
+}
+
+.preview {
+    background: #64b03d;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .3rem;
+}
+
+.infoContainer {
+    width: 3rem;
+    height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fileName {
+    margin: 0;
+    font-size: .5rem;
+}
+
+.fileSize {
+    margin: 0;
+    font-size: .4rem;
+}
+
+@media (max-width: 400px) {
+    .container{
+        width: 10rem;
+        padding: .1rem 0;
+
+    }
+    .preview {
+        font-size: .7rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .infoContainer{
+        width: 7rem;
+    }
+    .fileName {
+        font-size: 1rem;
+    }
+    .fileSize {
+        font-size: .6rem;
+    }
+}
